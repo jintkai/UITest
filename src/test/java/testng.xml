@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="自动化测试" >
+    <test name="测试" preserve-order="true">
+        <parameter name="node" value="http://172.21.213.42:5555/wd/hub"/>
+        <classes>
+            <class name="com.jon.RegisterTest" >
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -24,6 +24,8 @@ public class RegisterTest extends TestCase {
                 new SchoolDomain("西藏","山南","乃东县","山南地区高级中学"),
                 new GradeDomain("高中","2016年高中入学"));
         registerPage.register(domain);
+
+
     }
 
 }
